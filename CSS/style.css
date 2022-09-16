@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body{
+    overflow-x:hidden;
+    background: #000000; 
+}
+
+.nav-diseño{
+    font-family: 'Anton', sans-serif;
+}
+
+.logo-h{
+    color:#ffffff;
+    font-family: 'Anton', sans-serif;
+
+}
+.logo-h:hover{
+    color: #ff0000;
+}
+.bg-portafolio{
+    background:#40404048;
+}
+.bg-portafolio ul li a{
+    color:#ffffff;
+}
+
+.bg-portafolio ul li a:hover{
+    color: #000000;
+    background:#ffffff;
+    border-radius:7px;
+    border:#000000;
+}
+a img{
+    width:50px;
+    height:50px;
+}
+header{
+    background: url(../Img/professional-programmer-working-late-in-the-dark-office\ \(1\).jpg);
+    background-size: cover;
+    padding-bottom: 80px;
+    width:100%;
+    overflow-x:hidden; 
+}
+
+   
+ #nav{
+    width:100%;
+    max-width: 100%;
+  
+ }
+#presentacion{
+    padding-left:210px;
+    padding-bottom:80px;
+    padding-top:130px ;
+    
+}
+#presentacion h1{
+    color: #ff0000;
+    font-size:120px;
+    margin-top:100px;
+    font-family: 'Anton', sans-serif;
+
+}
+#presentacion p{
+    color:#ffffff;
+    font-size:30px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 100px;
+}
+
+main{
+    overflow-x:hidden; 
+    
+}
+#primera{
+    display:flex;
+    background:#000000;
+    background-size: cover;
+    width: 100%;
+}
+.fondo{
+    background: #4040403a;
+    display:flex;
+    margin:60px 80px 60px 80px;
+    width:100%;
+    border:solid 2px #ff0000;
+}
+.imagen{
+    width: 50%;
+}
+
+.imagen img{
+    width:50%;
+    height:350px;
+    margin-left:15%;
+    margin-top:50px ;
+    margin-bottom:50px;
+    border-radius:20px ;
+    border-right: solid 8px #ff0000;
+    border-bottom: solid 8px #ff0000;
+    
+}
+.perfil{
+    width:50%;
+    padding-left:60px ;
+}
+.perfil h2{
+    color: #ff0000;  
+    padding-bottom:25px ;
+    padding-top:50px;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+
+}
+.perfil p{
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif; 
+    
+    
+}
+.perfil b{
+    color: #ffffff;
+    padding-right:5px;
+}
+#segunda{
+    background: url(../Img/v627-aew-41-technologybackground.jpg);
+    background-size:cover;
+    width:100%;
+}
+#segunda h2{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: #ff0000;
+    padding-top:30px;
+    padding-bottom:2px;
+    margin-bottom:0%;
+    font-size: 40px;
+}
+.decoration{
+    width:40px;
+    height:5px;
+    background: #ffffff;
+    margin-left:46.5%;
+    
+}
+#segunda h3{
+    font-family:'Anton', sans-serif;
+    color: #ffffff;
+}
+.ex{
+    display: flex;
+    padding-bottom: 200px;
+}
+
+#segunda section{
+   margin: auto;
+   margin-top:10%;
+}
+.ex section{
+    background: #000000;
+   
+  
+}
+.ex h3{
+    color: #ffffff;
+    margin:10px;
+    text-align: center;
+    font-family:'Anton', sans-serif ;
+}
+.ex p{
+    color: #000000;
+    background: #ffffff88;
+    margin-left:20px;
+    margin-right:20px;
+    padding: 10px;
+    border: solid 1px #ff0000;
+    
+
+}
+#tercera{
+    background: #000000;
+    width: 100%;
+
+}
+#tercera h2{
+    color: #ff0000;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family:'Anton', sans-serif ;
+    font-size: 40px;
+}
+
+.progress{
+    height: 40px;
+    margin-bottom:30px;
+    margin-top:30px;
+    margin-right: 20px;
+    margin-left: 10px;
+    
+}
+#tercera h2 b{
+    color: #ffffff;
+    font-family:'Anton', sans-serif ;
+
+}
+.habilidades{
+    padding:50px;
+    background: #000000;
+    padding-bottom: 100px;
+    
+}
+
+.habilidades img{
+    background: #483ed1;
+    border:solid 2px #000000 ;
+}
+#cuarta{
+   background:url(../Img/rm373batch9-035.jpg);
+   background-size: cover;
+   width: 100%;
+}
+#cuarta h2{
+    text-align: center;
+    color: #ff0000;
+    font-family:'Anton', sans-serif ;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.paginas{
+    margin: 0 auto;
+   
+
+}
+.filas{
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.card{
+    margin-right:30px;
+    margin-bottom: 20px;
+    background:url(../Img/sep09.jpg);
+    border-right: solid 5px #ff0000;
+    border-bottom: solid 5px #ff0000;
+    
+    
+}
+.card h4{
+    color: #ff0000;
+    font-family:'Anton', sans-serif ;
+    text-decoration: none;
+    
+}
+.card p{
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;  
+    font-size: 18px;
+    text-decoration: none;
+}
+.card img{
+    height: 100px;
+    margin-top: 10px;
+}
+.card a{
+    text-decoration: none;
+}
+
+.deco{
+    height:5px;
+    width: 100%;
+    background: #ffffff;
+    margin-bottom: 100px;
+}
+#quinta{
+    background:url(../Img/Group\ 1\ \(1\).jpg);
+    background-size: cover;
+    width: 100%;
+}
+#quinta h2{
+    text-align: center;
+    color: #ffffff;
+    padding-top:50px; 
+    font-family:'Anton', sans-serif ;
+    font-size: 40px;
+   
+}
+
+#quinta p{
+    color: #ffffff;
+    font-size:28px;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-family: 'Quicksand', sans-serif;  
+}
+.fo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fe{
+    font-size: 50px;
+    color: #40404048;
+
+}
+footer img{
+    width:50px;
+    height: 50px;
+}   
+.decor{
+    width: 120px;
+    height:5px;
+    background: #ff0000;
+    margin: 0 auto;
+    margin-top:0%;
+    margin-bottom:4px;
+}
+.decora{
+
+    width: 180px;
+    height:5px;
+    background: #ff0000;
+    margin: 0 auto;
+    margin-top:0%;
+    margin-bottom: 50px;
+}
+
+.form input{
+    border:solid 2px #ff0000;
+    border-radius: 10px;
+    background: #404040;
+    
+}
+.form textarea{
+    border:solid 2px #ff0000;
+    border-radius: 10px;
+    background: #404040;
+    
+}
+.form{
+    
+    padding-bottom: 100px;
+    width: 500px;
+    overflow-x:hidden;
+   
+    
+}
+
+
+.color{
+    color: #ff0000;
+}
+footer{
+    background-image: url(../Img/v627-aew-39-technologybackground.jpg); 
+    width: 100%;
+    background-size: cover;
+    color: #ffffff;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     text-align: center;
+}
+#hola button{
+    color: #ff0000;
+    background-color: #404040;
+    border-radius:8px;
+    border:#ff0000 solid 2px;
+} 
+#hola button:hover{
+    color:#000000;
+    background: #ff0000;
+}
+.sections a:hover{
+    color:#ff0000;
+    
+}
+.sections section:hover{
+    border: solid #000000 2px;
+}
+@media screen and (min-width:501px) and (max-width:900px){
+    header{
+        width: 100%;
+    }
+    #nav{
+        width: 100%;
+       
+    }
+    .perfil{
+        text-align: center;
+       
+    }
+   
+    
+    .fondo{
+        display: block;
+    }
+    .imagen{
+        width: 100%;
+       
+       
+    }
+    .perfil{
+        margin-left:15%;
+    }
+    .ex{
+        display: block;
+    }
+    .experiencia{
+        width: 50%;
+        padding-bottom: 5px;
+    }
+    .educacion{
+        width: 50%;
+        padding-bottom: 5px;
+        
+    }
+    .sections{
+        display: block;
+        margin-bottom:0%;
+    }
+    .interfaz{
+       margin-left:28%;
+       margin-bottom: 70px;
+    }
+    .fo{
+        display: block;
+        text-align: center;
+       
+    }
+    .form{
+        width: 90%;
+        margin-left: 30px;
+    }
+    .info p{
+        margin-right: 25px;
+    }
+    #nav{
+        width:100%;
+        max-width: 900px;
+     }
+     .decor{
+        
+        margin: 0 auto;
+        width: 100px;
+       
+    }
+    .decora{
+        width: 60px;
+        margin: 0 auto;
+       
+    }
+}
+@media screen and (min-width:300px) and (max-width:500px){
+    .card{
+        margin-left: 40px;
+    }
+    .fondo{
+        display: block;
+        text-align: center;
+        margin: 25px 25px 25px 25px;
+    }
+    .imagen img{
+        width: 75%;
+        margin-right:100px;
+        
+        padding-left:0% ;
+    }
+    #nav{
+        width:100%;
+     }
+     .educacion{
+        width:50%;
+        padding-bottom: 5px;
+     }
+     .experiencia{
+        width: 50%;
+        padding-bottom: 5px;
+     }
+     .ex{
+        display: block;
+     }
+     .decor{
+        
+        margin: 0 auto;
+        width: 120px;
+        margin-bottom:5px;
+       
+    }
+    .decora{
+        width: 60px;
+        margin: 0 auto;
+        
+       
+    }
+    #hola{
+        max-width: 300px;
+    }
+    .form{
+        padding-left:40px;
+        padding-right:40px;
+        width: 360px;
+        margin-left:20px;
+    }
+    #presentacion{
+        padding-left:25%;
+    }
+    .perfil{
+        width: 100%;
+        padding-left:5px;
+        padding-right:5px;
+    }
+    .sections{
+        display: block;
+        margin-bottom:0%;
+    }
+     .diseño{
+        margin-bottom: 20px;
+        margin-left:80px;
+
+     }
+     .interfaz{
+        margin-left:80px;
+        margin-bottom: 70px;
+     }
+     .imagen{
+        margin-left: 0%;
+        padding-left: 0%;
+        width: 100%;
+     }
+     .fo{
+        display: block;
+        text-align: center;
+     }
+     .info{
+        margin-left: 0%;
+        margin-right: 50px;
+     }
+
+}
